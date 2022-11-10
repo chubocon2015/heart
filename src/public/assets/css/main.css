@@ -10,7 +10,7 @@ body {
 #text1,
 #text2 {
 	position: absolute;
-	top: 20%;
+	top: 90px;
 	left: 50%;
 	transform: translate(-50%, -30%);
 	color: rgb(255, 192, 203);
