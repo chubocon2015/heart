@@ -117,7 +117,7 @@ const elts = {
   text2: document.getElementById("text2"),
 };
 
-const texts = ["Yêu", "Trần Văn Bền", "3000", "💕💕💕" , "Thanh Thật Thà"];
+const texts = ["LOVE", "YOU", "3000", "💖💖💖" , "AND","MORE..."];
 
 const morphTime = 1;
 const cooldownTime = 0.25;
@@ -191,8 +191,8 @@ animate();
 const color = "hsla(330, 100%, 80%, 0.5)";
 const color1 = "rgba(255, 180, 210, 1)";
 var settings = {
-  color: "red",
-  color2: "red",
+  color: color,
+  color2: color1,
   particles: {
     length: 5000, // maximum amount of particles
     duration: 3, // particle duration in sec
