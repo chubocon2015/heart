@@ -117,7 +117,7 @@ const elts = {
   text2: document.getElementById("text2"),
 };
 
-const texts = ["Yêu", "Huyền", "3000", "💕💕💕" , "Lộc Lầy Lội"];
+const texts = ["Yêu", "Trần Văn Bền", "3000", "💕💕💕" , "Thanh Thật Thà"];
 
 const morphTime = 1;
 const cooldownTime = 0.25;
