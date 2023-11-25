@@ -21,7 +21,7 @@
         height: 600px;
         background: #a0d5d3;
         position: absolute;
-        top: 50%;
+        top: 53%;
         left: 50%;
         border-radius: 5%;
         margin-top: -60px;
@@ -1064,18 +1064,20 @@
         <img style="height:70vh"
             src="https://scontent.xx.fbcdn.net/v/t1.15752-9/398529185_230697316704688_6607659898025837661_n.jpg?stp=dst-jpg_s280x280&_nc_cat=111&ccb=1-7&_nc_sid=510075&_nc_eui2=AeE8rtkSHOZPXJIaQw6_zp87zuSHuYAfeQLO5Ie5gB95AinRYN1cInQQ0wjLWxLL_posaVj9XlA7_xxkZnLK-uJW&_nc_ohc=Hr-oyCbnUPgAX_rbgkJ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQUzxJdKiuQ6x_Re1XvaS0svYD-PYS4ppLsmVT1isoYYQ&oe=658987F2"
             alt="">
-        <h2 style="text-align: center;color:#de2f32">Hãy hôn và nhấn vào hình này của anh em sẽ thấy điều đặc biệt❤️❤️❤️</h2>
+        <h2 style="text-align: center;color:#de2f32">Hãy hôn và nhấn vào hình này của anh em sẽ thấy điều đặc biệt❤️❤️❤️
+        </h2>
     </div>
 
     <div class="christmas">
         <div class="message">
             <h1>Merry Christmas!</h1>
-            <h2>Hãy mãi bên anh em nhé , yêu em rất nhiều công chúa của anh 💞 💟  </h2>
+            <h2>Hãy mãi bên anh em nhé , yêu em rất nhiều công chúa của anh 💞 💟 </h2>
         </div>
         <div class="window ">
             <div class="santa">
-                <video autoplay loop>
-                    <source src="/src/public/assets/css/398493936_6284733844961706_6800896724966464888_n.mp4" type="video/mp4">
+                <video controls loop autoplay playsinline>
+                    <source src="/src/public/assets/css/398493936_6284733844961706_6800896724966464888_n.mp4"
+                        type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -1086,8 +1088,11 @@
         document.querySelector("#btn").onclick = function () {
             document.querySelector("#btn").style.display = 'none';
             document.querySelector(".christmas").style.display = 'block';
+            var video = document.querySelector('video');
+            video.play();
             document.querySelector("#body").style.background = "#de2f32";
         }
+
     </script>
 </body>
 
